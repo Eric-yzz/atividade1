@@ -2,7 +2,8 @@
 
 Projeto de site para divulgação de eventos acadêmicos da Universidade Dos Cuiudos (UNCUI), feito inteiramente com HTML5 e CSS3 puro (sem frameworks e sem JavaScript).
 
-**Link do site:** https://Eric-yzz.github.io/atividade1/
+**Link do site:** https://Eric-yzz.github.io/atividade1
+
 
 ---
 
