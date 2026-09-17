@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissão - Universidade Dos Cuiudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <h1>UNIVERSIDADE DOS CUIUDOS</h1>
+        <p>PACTO DE ADMISSÃO — SUA ALMA AGORA PERTENCE À UNCUI</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="programacao.html">Programação</a></li>
+            <li><a href="inscricao.html">Inscrição</a></li>
+            <li><a href="regras.html">Conduta</a></li>
+        </ul>
+    </nav>
+
+    <main class="miolo">
+        <aside class="aviso">
+            <h2>TERMO DE POSSE DEFINITIVA</h2>
+            <p>Entrou pra bancada, não tem volta. Aqui é igual torcida organizada: não existe ex-cuiudo. Se tentar abandonar o barco, a diretoria vai te buscar em casa.</p>
+            
+            <h3>FILTRO ANTI-MACIO</h3>
+            <p>Inspire-se no lendário <strong>BahBah-y</strong> ao assinar o pacto. Lembre-se de que o <strong>Rafa Micah</strong> tentou frescura, amarelou e teve o nome exposto no cartaz de procurados.</p>
+        </aside>
+
+        <section class="mural">
+            <h2>ALISTAMENTO OBRIGATÓRIO DE RECRUTAS</h2>
+
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome Completo do Vivente</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo sem frescura (Proibido: Rafa Micah)" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail para Notificação de Convocação</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@uncui.com.br" required>
+                </div>
+
+                <div class="campo">
+                    <label for="curso">Curso de Batalha</label>
+                    <input type="text" id="curso" name="curso" placeholder="Ex: Engenharia de Marreta, Zootecnia Bruta" required>
+                </div>
+
+                <div class="campo">
+                    <label for="periodo">Período de Suor</label>
+                    <select id="periodo" name="periodo" required>
+                        <option value="" disabled selected>Selecione seu nível de calejamento...</option>
+                        <option value="1">1º Período (Calouro Encurralado)</option>
+                        <option value="2">2º Período (Engolidor de Poeira)</option>
+                        <option value="3">3º Período (Sobrevivente do Terrão)</option>
+                        <option value="4">4º Período (Lixador de Motor)</option>
+                        <option value="5">5º Período (Meio-Cuiudo de Respeito)</option>
+                        <option value="6">6º Período (Operador de Marreta)</option>
+                        <option value="7">7º Período (Veterano Sem Dente)</option>
+                        <option value="8">8º Período ou Veterano Casca-Grossa (Nível BahBah-y)</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="evento">Evento / Convocação Desejada</label>
+                    <select id="evento" name="evento" required>
+                        <option value="" disabled selected>Escolha onde vai ralar...</option>
+                        <option value="costela">I Congresso de Costela no Fogo de Chão</option>
+                        <option value="hackathon">Hackathon C Puro e Terminal Preto</option>
+                        <option value="truco">Torneio Interclasses de Truco Cego</option>
+                        <option value="mecanica">Conserto de Motores com Arame</option>
+                        <option value="futebol">Futebol em Terra Batida</option>
+                        <option value="cafe">Degustação de Café Amargo Fervido</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Modalidade de Presença</label>
+                    <div class="radio-grupo">
+                        <label class="radio-item">
+                            <input type="radio" name="modalidade" value="presencial" checked> Presencial (No terrão aguentando o rojão estilo BahBah-y)
+                        </label>
+                        <label class="radio-item">
+                            <input type="radio" name="modalidade" value="online"> Online (Assistir do sofá por sua conta e risco - Modalidade Rafa Micah)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label class="radio-item">
+                        <input type="checkbox" id="confirmacao" name="confirmacao" required>
+                        DECLARO QUE MINHA ALMA AGORA PERTENCE À UNCUI, ACEITO SER CONVOCADO A QUALQUER HORA E PROMETO NÃO RECLAMAR IGUAL O RAFA MICAH.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-envio">ENTREGAR A ALMA E CONFIRMAR INSCRIÇÃO</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 Universidade Dos Cuiudos — UMA VEZ CUIUDO, CUIUDO ATÉ O FIM.</p>
+    </footer>
+</body>
+</html>
